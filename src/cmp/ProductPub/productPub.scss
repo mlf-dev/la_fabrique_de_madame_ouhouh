@@ -1,0 +1,60 @@
+/* ------------ PRODUITS PAGE ------------ */
+
+  /* Product Pub */
+#zoomProduitContainer{
+    width: 100%;
+    align-items: center;
+    margin:0;
+    padding-bottom:20px;
+    display: inline-block;
+}
+
+.containerFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produitPubItem{
+    /* margin: 0 30px; */
+    padding:0;
+    height:150px;
+    width:250px;
+    background: url(../../img/produitdumois.jpg) no-repeat center;
+    position: relative;
+    border: 1px solid var(--mainGreenPolice);
+}
+
+#zoomProduitContainer .titlePub{
+    display:inline-block;
+    position:relative;
+    top:-10px;
+    left:-10px;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    background-color: var(--mainPink);
+}
+
+#zoomProduitContainer .productName{
+    font-size: 1.2em;
+    color: var(--mainGreenPolice);
+    text-align:center;
+    padding: 10px 0;
+}
+
+.productName::first-letter{
+    text-transform: uppercase;
+}
+
+#zoomProduitContainer #TitleContainerPub{
+    text-align: center;
+    background-color:none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.produitPubItemContainer:hover{
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.42); 
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.42);
+}

@@ -1,0 +1,40 @@
+  /* Sous menu produits */
+.deco{
+    height:1px;
+    align-items: center;
+    background-color: var(--mainGreenPolice);
+}
+
+#sousMenuProduits{
+    width:100%;
+    text-align: center;
+    padding:0;
+    align-items: center;
+    position: fixed;
+    top: 245px;
+    z-index: 10;
+    background-color: var(--mainGreen);
+    list-style-position: inside;
+}
+
+#sousMenuProduits a:link, #sousMenuProduits a:visited{
+    padding: 6px;
+    align-items: center;
+    color:var(--mainGreenPolice);
+    text-decoration:none;
+    font-size:1.4em;
+    font-family:'Satisfy', cursive;
+    position:relative;
+    z-index:1;
+    display:block;
+}
+
+#sousMenuProduits a:hover, #sousMenuProduits a:active{
+    color:var(--mainPink);
+    font-family:'Satisfy', cursive;
+    position:relative;
+    z-index:1;
+    background-color: var(--mainGreen);
+    display: block;
+    border-radius:2px;
+}

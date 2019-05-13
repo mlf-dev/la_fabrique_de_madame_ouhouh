@@ -1,0 +1,30 @@
+.productListItem{
+    background: url(../../img/produitdumois.jpg) no-repeat center;
+    height: 200px;
+    border: 1px solid var(--mainGreenPolice)
+}
+.productListItemContainer{
+    /* height: 320px; */
+    width: 260px;
+    margin-bottom: 20px;
+}
+.productListItemContainer .productName{
+    font-size: 1.2em;
+    color: var(--mainGreenPolice);
+    text-align:center;
+    padding: 10px 0;
+}
+.containerFlex .productListItemContainer:hover{
+    background-color:var(--mainGreen);
+    -webkit-box-shadow: 0px 10px 13px -7px var(--mainGrey), 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -10px var(--mainGrey), 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.productListItemContainer:hover h4{
+    color:var(--mainGrey);
+}
+.priceAndBtnContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,74 @@
+[        
+    {
+        "id" : "1",
+        "categorie" : "cheveux",
+        "nom" : "shampooing shikakai",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "8,00",
+        "femmeEnceinte" : false
+    },
+    {
+        "id" : "2",
+        "categorie" : "cheveux",
+        "nom" : "shampooing solide blabla 1",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "10,00",
+        "femmeEnceinte" : true
+    },
+    {
+        "id" : "3",
+        "nom" : "savon pour le corps",
+        "categorie" : "corps",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "6,00",
+        "femmeEnceinte" : true
+    },
+    {
+        "id" : "4",
+        "nom" : "savon pour le corps avec HE",
+        "categorie" : "corps",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "8,00",
+        "femmeEnceinte" : false
+    },
+    {
+        "id" : "5",
+        "nom" : "dentifrice avec HE",
+        "categorie" : "autres",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "10,00",
+        "femmeEnceinte" : false
+    },
+    {
+        "id" : "6",
+        "nom" : "dentifrice charbon sans HE",
+        "categorie" : "autres",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "10,00",
+        "femmeEnceinte" : true
+    },
+    {
+        "id" : "7",
+        "nom" : "démaquillant huile jojoba et HE",
+        "categorie" : "visage",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "12,00",
+        "femmeEnceinte" : false
+    },
+    {
+        "id" : "8",
+        "nom" : "démaquillant huile sans HE",
+        "categorie" : "visage",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "11,00",
+        "femmeEnceinte" : true
+    },
+    {
+        "id" : "9",
+        "nom" : "démêlant cheveux",
+        "categorie" : "cheveux",
+        "description" : "description ici blablablablablabla blablablablablabla, description ici blablablablablabla blablablablablabla",
+        "prixUnitaire" : "14,00",
+        "femmeEnceinte" : true
+    }
+]
